@@ -105,6 +105,12 @@ img {
 img {
   display: inline-block;
   vertical-align: middle; }
+  .img-left {
+    float: left;
+    margin: 0.5rem; }
+  .img-right {
+    float: right;
+    margin: 0.5rem; }
 
 textarea {
   height: auto;
