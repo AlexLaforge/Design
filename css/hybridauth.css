@@ -1,0 +1,30 @@
+.ha {
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  margin: 0 0.125rem;
+  background-image: url('../img/hybridauth/color-icons.png');
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  opacity: 1; }
+.ha:hover {opacity: .8;}
+
+.ha-active {
+    background-image: url('../img/hybridauth/grayscale-icons.png');
+    opacity: .5 !important;
+}
+
+.ha.ha-facebook {background-position: 0 0;}
+.ha.ha-github {background-position: -3rem 0;}
+.ha.ha-google {background-position: -6rem 0;}
+.ha.ha-instagram {background-position: -9rem 0;}
+.ha.ha-linkedin {background-position: -12rem 0;}
+.ha.ha-livejournal {background-position: -15rem 0;}
+.ha.ha-mailru {background-position: -18rem 0;}
+.ha.ha-odnoklassniki {background-position: -21rem 0;}
+.ha.ha-thumblr {background-position: -24rem 0;}
+.ha.ha-twitter {background-position: -27rem 0;}
+.ha.ha-vimeo {background-position: -30rem 0;}
+.ha.ha-vkontakte {background-position: -33rem 0;}
+.ha.ha-yandex {background-position: -36rem 0;}
+.ha.ha-youtube {background-position: -39rem 0;}
