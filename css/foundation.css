@@ -4019,9 +4019,7 @@ a.menu-icon {
   right: 0; }
 
 .main-section {
-  background-image: url(../img/patterns/14.png); 
-  background-position: initial initial; 
-  background-repeat: initial initial; }
+  background: url(../img/patterns/14.png) center repeat repeat; }
   .iklon {
     position: relative;
     z-index: 0;
