@@ -4049,8 +4049,7 @@ a.menu-icon {
       padding: 1.25rem 0 1.563rem; }
       .traw {
         margin: 1rem 0; }
-        
-        
+
 .ar-post {
   width: 100%;
   height: auto;
@@ -4071,6 +4070,60 @@ a.menu-icon {
       -ms-transition: all 400ms ease-in-out;
       -o-transition: all 400ms ease-in-out;
       transition: all 400ms ease-in-out; }
+  .ar-date {
+    float: left;
+    width: 25%;
+    max-width: 9.375rem;
+    padding: 1rem; }
+    .ar-date-c {
+      float:left;
+      width: 6.875rem;
+      height: 6.875rem;
+      overflow:hidden;
+      color:#fff;
+      font-size: 0.875rem;
+      padding: 0.625rem 0.3125rem 0 0.3125rem;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      position:relative;
+      -webkit-transition: all 0.20s;
+      -moz-transition: all 0.20s;
+      transition: all 0.20s;
+      background:#aaaaaa;
+      z-index:0; }
+    .ar-date-c:before {
+      content: "";
+      width: 5.875rem;
+      height: 5.875rem;
+      background: none;
+      border: 0.1875rem solid #ffffff;
+      border-bottom-color: transparent;
+      overflow: hidden;
+      position: absolute;
+      top: 0.5rem;
+      left: 0.5rem;
+      -webkit-transform:rotate(-45deg);
+      -moz-transform:rotate(-45deg);
+      -ms-transform:rotate(-45deg);
+      transform:rotate(-45deg);
+      -webkit-transition: all 0.25s;
+      -moz-transition: all 0.25s;
+      transition: all 0.25s;
+      -webkit-transition-delay: 0.1s;
+      transition-delay: 0.1s;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%; }
+      .r-month {
+        display: inline-block;
+        margin: 1rem 0; }
+      .r-day {
+        font-size: 2rem;
+        display: block; }
+  .timet {
+    float:left;
+    width:75%; }
   .ar-author {
     position: absolute;
     z-index: 10;
@@ -4097,11 +4150,10 @@ a.menu-icon {
         width: 6.875rem;
         height: 6.875rem;
         background: none;
-        border: 0.1875rem solid #fff;
+        border: 0.1875rem solid #ffffff;
         border-left-color: transparent;
         overflow: hidden;
         position: absolute;
-        top: -0.375rem;
         top: -0.5rem;
         left: -0.5rem;
         -webkit-transition: all 0.25s;
@@ -4190,6 +4242,9 @@ a.menu-icon {
         z-index:-1;
         text-align:center; }
   /* Animation on hover */
+  .ar-post:hover  .ar-date-c {
+    background: #3498db; }
+  .ar-post:hover .ar-date-c:before,
   .ar-post:hover .ar-profile:before {
     transform: rotate(180deg);
     -moz-transform: rotate(180deg);
