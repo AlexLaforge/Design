@@ -4278,28 +4278,28 @@ a.menu-icon {
     -ms-transform: scale(1.06);
     transform: scale(1.06);
     -webkit-backface-visibility: hidden; }
-        
+    .h-vid { margin-left: 10px; }
     .footer {
       border-bottom: 0.3125rem solid #aaaaaa;
       border-top: 0.125rem solid #aaaaaa;
       position: relative;
-      overflow: hidden; 
+      overflow: hidden;
       padding: 0.3125rem 0; }
       .fooline {
         top: 0.3125rem;
         display: block;
         left: 0;
-        border-top: 0.3125rem solid #aaa; }
+        border-top: 0.3125rem solid #aaaaaa; }
       .foover {
         position: relative;
-        border-right: 0.0625rem #aaa solid;
+        border-right: 0.0625rem #aaaaaa solid;
         padding-top: 0.3125rem;
         margin-bottom: -624.9rem;
         padding-bottom: 624.9rem; }
         .foover:last-child {
           border-right: none; }
       .copyright {
-        border-top:0.125rem solid #aaa;
+        border-top:0.125rem solid #aaaaaa;
         margin-top: 0.3125rem;
         padding: 1.563rem 0 0; }
 
