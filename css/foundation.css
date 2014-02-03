@@ -112,6 +112,16 @@ img {
     float: right;
     margin: 0.5rem; }
 
+.radius {
+  -webkit-border-radius: 0.1875rem;
+  border-radius: 0.1875rem; }
+.round {
+  -webkit-border-radius: 62.5rem;
+  border-radius: 62.5rem; }
+.circle {
+  -webkit-border-radius: 50%;
+  border-radius: 50%; }
+
 textarea {
   height: auto;
   min-height: 3.125rem; }
@@ -1989,6 +1999,9 @@ select {
   .panel.round {
     -webkit-border-radius: 62.5rem;
     border-radius: 62.5rem; }
+  .panel..circle {
+    -webkit-border-radius: 50%;
+    border-radius: 50%; }
 
 /* alert-box */
 .alert-box {
@@ -2455,6 +2468,9 @@ button, .button {
   .th.radius {
     -webkit-border-radius: 0.1875rem;
     border-radius: 0.1875rem; }
+  .th.round {
+    -webkit-border-radius: 62.5rem;
+    border-radius: 62.5rem; }
 
 a.th {
   display: inline-block;
@@ -3814,6 +3830,9 @@ label {
   .label.round {
     -webkit-border-radius: 62.5rem;
     border-radius: 62.5rem; }
+  .label.circle {
+    -webkit-border-radius: 50%;
+    border-radius: 50%; }
   .label.alert {
     background: #e74c3c;
     color: white; }
@@ -4055,6 +4074,7 @@ a.menu-icon {
   height: auto;
   overflow: hidden;
   position: relative;
+  background: #ffffff;
   z-index: 0;
   margin-bottom: 1.25rem; }
   .ar-text {
@@ -4074,7 +4094,7 @@ a.menu-icon {
     float: left;
     width: 25%;
     max-width: 9.375rem;
-    padding: 1rem; }
+    padding: 0.5rem 0; }
     .ar-date-c {
       float:left;
       width: 6.875rem;
@@ -4084,7 +4104,6 @@ a.menu-icon {
       font-size: 0.875rem;
       padding: 0.625rem 0.3125rem 0 0.3125rem;
       -webkit-border-radius: 50%;
-      -moz-border-radius: 50%;
       border-radius: 50%;
       position:relative;
       -webkit-transition: all 0.20s;
@@ -4113,7 +4132,6 @@ a.menu-icon {
       -webkit-transition-delay: 0.1s;
       transition-delay: 0.1s;
       -webkit-border-radius: 50%;
-      -moz-border-radius: 50%;
       border-radius: 50%; }
       .r-month {
         display: inline-block;
@@ -4128,9 +4146,6 @@ a.menu-icon {
       text-transform: uppercase;
       border-bottom: 2px solid #7f7f7f;
       padding-bottom: 10px; }
-.postmeta {
-  display: block;
-  }
   .ar-author {
     position: absolute;
     z-index: 10;
@@ -4149,9 +4164,8 @@ a.menu-icon {
       -moz-transition: all 0.25s;
       transition: all 0.25s;
       border-radius: 50%;
-      -moz-border-radius: 50%;
       -webkit-border-radius: 50%;
-      -o-border-radius: 50%; }
+      border-radius: 50%; }
       .ar-profile:before {
         content: "";
         width: 6.875rem;
@@ -4165,15 +4179,13 @@ a.menu-icon {
         left: -0.5rem;
         -webkit-transition: all 0.25s;
         -moz-transition: all 0.25s;
+        -o-transition: all 0.25s;
         transition: all 0.25s;
         -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
         border-radius: 50%; }
       .ar-profile img {
-        border-radius: 50%;
-        -moz-border-radius: 50%;
         -webkit-border-radius: 50%;
-        -o-border-radius: 50%;
+        border-radius: 50%;
         width: 5.5rem;
         height: 5.5rem;
         -webkit-transition: all 0.25s;
@@ -4233,12 +4245,11 @@ a.menu-icon {
         .ar-isi footer:hover .ar-rdmr {
           right: 3.75rem; }
       .rborder {
-        border-radius: 50%;
-        -moz-border-radius: 50%;
         -webkit-border-radius: 50%;
-        -o-border-radius: 50%;
+        border-radius: 50%;
         padding: 0.625rem 1rem;
         border:0.125rem solid #fff;
+        vertical-align: middle;
         display:inline-block;
         overflow:hidden;
         position:absolute;
