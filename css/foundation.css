@@ -4201,14 +4201,13 @@ a.menu-icon {
     right: -25%;
     top: 0;
     background: rgba(52, 152, 219,.79);
-    color: #fff;
-    padding: 1.25rem 0.9375rem;
+    color: #ffffff;
     -webkit-transition: all 0.25s;
     -moz-transition: all 0.25s;
     transition: all 0.25s;
     opacity: 0.5; }
     .ar-isi a {
-      color: #fff; }
+      color: #ffffff; }
     .ar-meta {
       padding:0.4375rem 0;
       font-size:0.875rem;
