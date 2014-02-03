@@ -4144,8 +4144,9 @@ a.menu-icon {
     width:75%; }
     .t-imet h1, .t-imet h2, .t-imet h3, .t-imet h4, .t-imet h5, .t-imet h6 {
       text-transform: uppercase;
-      border-bottom: 2px solid #7f7f7f;
-      padding-bottom: 10px; }
+      border-bottom: 0.125rem solid #7f7f7f;
+      padding-bottom: 0.625rem;
+      padding-left: 0.625rem; }
   .ar-author {
     position: absolute;
     z-index: 10;
