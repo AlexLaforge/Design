@@ -1844,7 +1844,7 @@ select {
     margin-left: 1.375rem;
     display: block; }
     .inline-list > li > * {
-      display: block; }
+      display: inline-block; }
 
 /* Panels */
 .panel {
@@ -4121,9 +4121,16 @@ a.menu-icon {
       .r-day {
         font-size: 2rem;
         display: block; }
-  .timet {
+  .t-imet {
     float:left;
     width:75%; }
+    .t-imet h1, .t-imet h2, .t-imet h3, .t-imet h4, .t-imet h5, .t-imet h6 {
+      text-transform: uppercase;
+      border-bottom: 2px solid #7f7f7f;
+      padding-bottom: 10px; }
+.postmeta {
+  display: block;
+  }
   .ar-author {
     position: absolute;
     z-index: 10;
